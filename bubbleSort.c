@@ -16,13 +16,13 @@ int sort(int j){
 	for (i=0;i<j;i++){
 		for (k=0;k<j-i;k++){
 			if(array[i]>array[i+1]) {
-				/*array[i]=array[i] + array [i+1];
+				array[i]=array[i] + array[i+1];
 				array[i+1]=array[i]-array[i+1];
 				array[i]=array[i] - array[i+1];
-				*/
+				/*
 				temp = array[i];
 				array[i] = array[i + 1];
-				array[i + 1] = temp;
+				array[i + 1] = temp;*/
 			}
 		}
 	}
